@@ -21,7 +21,7 @@ const Login = () => {
 
     try {
       setLoading(true);
-      const res = await axios.post("http://localhost:3002/login", {
+      const res = await axios.post("52.195.209.32:3002/login", {
         email: email,
         password: password,
       });
